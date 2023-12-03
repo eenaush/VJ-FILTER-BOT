@@ -8,9 +8,9 @@ then
   git clone https://github.com/eenaush/OGGY-FILTER-BOT.git /OGGY-FILTER-BOT 
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /VJ-FILTER-BOT 
+  git clone $UPSTREAM_REPO /OGGY-FILTER-BOT 
 fi
-cd /VJ-FILTER-BOT 
+cd /OGGY-FILTER-BOT 
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
 python3 bot.py
